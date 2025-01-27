@@ -1,0 +1,24 @@
+{
+    "recipients": [
+      {
+        "email": "hi@socialwell.in",
+        "name": "Admin",
+        "notifications": ["all"]
+      },
+      {
+        "email": "librarian@citycollegekolkata.org",
+        "name": "City College Library",
+        "notifications": ["citycollege"]
+      },
+      {
+        "email": "info@aviweb.in",
+        "name": "RPMC Library",
+        "notifications": ["rpmc"]
+      },
+      {
+        "email": "samikshani.centre@gmail.com",
+        "name": "Samikshani Library",
+        "notifications": ["samikshani"]
+      }
+    ]
+  }

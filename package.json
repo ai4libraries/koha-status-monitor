@@ -1,0 +1,42 @@
+{
+  "name": "koha-status-monitor",
+  "version": "1.0.0",
+  "description": "A monitoring system for Koha ILS instances with email notifications and status dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "koha",
+    "ils",
+    "library",
+    "monitoring",
+    "status-checker",
+    "email-notifications"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ai4libraries/koha-status-monitor"
+  },
+  "bugs": {
+    "url": "https://github.com/ai4libraries/koha-status-monitor/issues"
+  },
+  "homepage": "https://github.com/ai4libraries/koha-status-monitor#readme",
+  "author": {
+    "name": "Atanu Garai",
+    "email": "hi@socialwell.in",
+    "url": "https://socialwell.in"
+  },
+  "license": "MIT"
+}
